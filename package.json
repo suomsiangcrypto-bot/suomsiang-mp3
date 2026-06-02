@@ -16,7 +16,7 @@
         { "target": "portable", "arch": ["x64"] },
         { "target": "nsis", "arch": ["x64"] }
       ],
-      "icon": "icons/icon.ico"
+      "icon": "icons/icon.png"
     },
     "portable": {
       "artifactName": "SUOMSIANGCRYPTO-MUSIC-Portable.exe"
@@ -24,8 +24,6 @@
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
-      "installerIcon": "icons/icon.ico",
-      "uninstallerIcon": "icons/icon.ico",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "shortcutName": "SUOMSIANGCRYPTO MUSIC"
